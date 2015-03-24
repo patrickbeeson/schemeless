@@ -68,7 +68,7 @@
 ///////////////////////////
 
 @sat:saturation(@seed-color);
-@luma:luma(@seed-color);
+@luma:luminance(@seed-color);
 @lit:lightness(@seed-color);
 @tone:desaturate(@seed-color,100%);
 
@@ -141,4 +141,3 @@
     color:@new-color;
     .contrast(@color);
 }
-
